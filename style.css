@@ -15,6 +15,7 @@ body{
     margin: auto;
     margin-top: 50px;
     justify-content: space-between;
+
     margin-bottom: 30px;
 }
 .container_image{
@@ -65,5 +66,10 @@ box-shadow:  28px 28px 55px #7c7373,
     
     align-items: flex-end;
     margin-top: 60px;
+}
+
+.imglitle{
+    display: block;
+    margin-left: 100px;
 }
 /* Cristhian Medina */
