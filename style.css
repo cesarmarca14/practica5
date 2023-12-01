@@ -1,9 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
+/* body{
     width: 1440px;
     height: auto;
     
+    
+} */
+footer {
+  height: 869px;
+  position: relative;
+  background: #316099;
+}
+footer .container-footer {
+  position: absolute;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.linea-footer {
+  margin: 10px 0 40px 0;
+  border: 0.5px solid #fff;
+}
+footer .footer-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer .blocks ul {
+  list-style: none;
+}
+footer .blocks .icon-afri {
+  height: 40px;
+  padding-bottom: 15px;
+}
+footer .blocks ul .footer-tittle {
+  font-weight: bold;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+footer .blocks ul li , a{
+  margin: 20px 0;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+.copyright {
+    padding-top: 50px;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  opacity: 0.4;
 }
