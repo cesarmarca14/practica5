@@ -2,8 +2,107 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 1440px;
+
+body{ 
+    width: auto;
     height: auto;
+}
+
+.encabezado{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+    translate: 20px;
+}
+
+.navegador ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding-right: 30px ;
+    font-size: 20px;
+    translate: -80px;
+}
+
+.navegador ul li{
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+}
+
+.A{
+    translate: -21px 5px;
+    z-index: 30;
+    cursor: pointer;
+
+}
+
+.circulo1{
+    translate: 20px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.circulo2{
+    z-index: 10;
+    cursor: pointer;
+}
+
+.navegador li:hover{
+    color: blue;
+}
+
+.portada{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.portada1{
+    text-align: center;
+    background:url(https://i.postimg.cc/kMWsWKnV/Mask-Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
     
+}
+
+.p1{
+    color: white;
+    font-size: 44px;
+    padding-bottom: 50px;
+}
+
+.p2{
+    color: white;
+    font-size: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lupa{
+    z-index: 1;
+    translate: 35px 15px;
+}
+
+.form-inline{
+    width: 700px;
 }
