@@ -1,3 +1,5 @@
+/* Cristhian Medina */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +9,61 @@ body{
     height: auto;
     
 }
+.container_cristhian {
+    display: flex;
+    width: 941px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.container_image{
+    width: 300px;
+}
+
+.text {
+    margin-top: 10px;
+    color: #1F3F68;
+}
+
+.text2{
+    color: #1F3F68;
+    margin-top: 10px;
+}
+.text3{
+    margin-top: 10px;
+}
+.text4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.final{
+    margin-top: 50px;
+    width: 1440;
+    max-width: 941px;
+    text-align: end;
+    margin: auto;
+    color: #356EAD;
+   
+}
+.imageness:hover{
+    border-radius: 81px;
+background: linear-gradient(145deg, #837a7a, #9c9090);
+box-shadow:  28px 28px 55px #7c7373,
+             -28px -28px 55px #a89b9b;
+}
+.text_lorem{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.container_samanta{
+    margin-top: 17px;
+   
+}
+.container_samanta2{
+    
+    align-items: flex-end;
+    margin-top: 60px;
+}
+/* Cristhian Medina */
