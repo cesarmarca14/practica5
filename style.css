@@ -33,7 +33,7 @@ body{
     
         display: grid;
         grid-template-columns: 1fr 3fr; 
-        grid-gap: 5px; /* Espaciado entre elementos de la cuadrícula */
+        grid-gap: 5px; 
         
       
 }
@@ -78,9 +78,20 @@ body{
     display: flex;
     justify-content: start;
     color: #356EAD;
+    cursor: pointer;
 }
 .section49{
     display: flex;
     justify-content: end;
     color: #356EAD;
+    cursor: pointer;
+}
+
+.section444{
+    margin: 20px;
+    justify-content: center;
+}
+
+div svg {
+    cursor: pointer;
 }
