@@ -1,4 +1,497 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
+  }
+  body{
+    width: 1366px;
+    height: 869px;
+    margin: auto;
+  
+  }
+  /* Brandon (Wolf) */
+  .encabezado{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo{
+    translate: 20px;
+  }
+  
+  .navegador ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding-right: 30px ;
+    font-size: 20px;
+    translate: -80px;
+  }
+  
+  .navegador ul li{
+    cursor: pointer;
+  }
+  
+  .logo{
+    display: flex;
+  }
+  
+  .A{
+    translate: -21px 5px;
+    z-index: 30;
+    cursor: pointer;
+  
+  }
+  
+  .circulo1{
+    translate: 20px;
+    z-index: 10;
+    cursor: pointer;
+  
+  }
+  
+  .circulo2{
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .navegador li:hover{
+    color: blue;
+  }
+  
+  .portada{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .portada1{
+    text-align: center;
+    background:url(https://i.postimg.cc/kMWsWKnV/Mask-Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10%;
+    width: 100%;
+    padding: 100px 0;
+    
+  }
+  
+  .p1{
+    color: white;
+    font-size: 44px;
+    padding-bottom: 50px;
+  }
+  
+  .p2{
+    color: white;
+    font-size: 20px;
+    width: 1200px;
+    margin: auto;
+  }
+  
+  .input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .lupa{
+    z-index: 1;
+    translate: 35px 15px;
+  }
+  
+  .form-inline{
+    width: 700px;
+  }
+  
+  /* Cesar Marca */
+  
+  .titulo-1{
+    display: flex;
+    flex-direction: column;
+  }
+        /* imagenes */
+  
+  .container-main{
+    display: flex;
+    margin: auto;
+    /* flex-direction: column; */
+  }
+  
+  .img-pricipal{
+    width:540px;
+    height:380px;
+  }
+  .img-inconos-post-1{
+    width: 20px;
+    height: 20px;
+  }
+            /* texto */
+  .tex-popular{
+    color: #356EAD;
+    font-size: 20px;
+    
+  }
+  .tex-titulo{
+    margin-top: 20px;
+    color: #1F3F68;
+    font-size: 35px;
+  }
+  .tex-lorean{
+    padding-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+  }
+  .tex-samatha{
+    font-size: 14px;
+    color: #1F3F68;
+    /* border: solid; */
+  }
+  .tex-fecha{
+   /* border: solid; */
+    font-size: 14px;
+    color:#1f3f6880;  
+   
+  }
+  .container-main{
+    width: 941px;
+  
+  }
+  
+  .container-texto-principal{
+    /* border: solid green; */
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .container-fecha{
+  
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  
+   
+  
+    
+  }
+  
+  .container-img-principal{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+  
+  }
+  .img-inconos{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  .img-inconosuno{
+    margin-left: 150px;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  
+  /* Cristhian Medina */
+  .container_cristhian {
+     display: flex;
+     width: 941px;
+     margin: auto;
+     margin-top: 50px;
+     justify-content: space-between;
+    
+     margin-bottom: 30px;
+    }
+    .container_image{
+     width: 300px;
+    }
+    
+    .text {
+     margin-top: 10px;
+     color: #1F3F68;
+    }
+    
+    .text2{
+     color: #1F3F68;
+     margin-top: 10px;
+    }
+    .text3{
+     margin-top: 10px;
+    }
+    .text4{
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+    }
+    .final{
+     margin-top: 50px;
+      width: 1440;
+     max-width: 941px;
+     text-align: end;
+     margin: auto;
+     color: #356EAD;
+    
+    }
+    .imageness:hover{
+   border-radius: 81px;
+    background: linear-gradient(145deg, #837a7a, #9c9090);
+    box-shadow: 28px 55px #7c7373,
+    -28px -28px 55px #a89b9b;
+    }
+    .text_lorem{
+     font-size: 20px;
+     margin-top: 7px;
+    }
+    .container_samanta{
+     margin-top: 17px;
+    
+    }
+    .container_samanta2{
+     
+     align-items: flex-end;
+     margin-top: 60px;
+    }
+    
+    .imglitle{
+     display: block;
+     margin-left: 100px;
+    }
+    
+    .raya{
+     margin: auto;
+     width: 1440px;
+     max-width: 941px;
+     margin-top: 30px;
+    border: 1px solid #00000033
+    }
+  
+  
+  /* Cris Digital */
+  
+  .section444{
+    margin: auto;
+  }
+  .section4{
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .sectionh2{
+    display: block;
+    font-family:Helvetica, sans-serif;
+    color: #356EAD;
+    font-size: 20px;
+  }
+  
+  .img41{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 328px;
+    height: 200px;
+  }
+  .section42{
+    
+        display: grid;
+        grid-template-columns: 1fr 3fr; 
+        grid-gap: 10px; 
+        
+      
+  }
+  .section43{
+    width: 328px;
+  }
+  .section44{
+    width: 600px;
+  }
+  .section45 h3 {
+    font-size: 18px;
+    color: #1F3F68;
+    font-family: Helvetica, sans-serif;
+  }
+  .section45{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+  }
+  .section46{
+    display: flex;
+    justify-content: space-between;
+    color: #1F3F68;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+  }
+  .section46 span{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .section47 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 5px;
+    width: 940px;
+    margin-top: 20px;
+   
+  }
+  .section48{
+    display: flex;
+    justify-content: start;
+    color: #356EAD;
+    cursor: pointer;
+  }
+  .section49{
+    display: flex;
+    justify-content: end;
+    color: #356EAD;
+    cursor: pointer;
+  }
+  
+  .section444{
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  div svg {
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:500px) {
+   body, .section444, .section44, .section4, .section45,.section41, .section42, .section47{
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .section42 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .img41, .section43{
+    width: 92%;
+    margin: 0px;
+    
+    display: flex;
+    justify-content: center;
+  }
+  .section4 h2{
+    text-align: center;
+    
+  }
+  .section45{
+    margin: 15px;
+  }
+  .section46{
+    margin: 15px;
+  }
+  }
+  /* Marco Antonio */
+  
+  
+  
+  .footervx{
+    background-color: #316099;
+  }
+  .footervx h4 {
+    color:#FFF;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 28px; 
+    letter-spacing: 0.9px;
+  }
+  
+  .footervx p {
+    padding-top: 40px;
+    color:gray;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    width: 300px;
+  }
+  
+  .footervx button {
+    color:white;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.64px;
+    background-color: #5A98D0 ;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  
+  /* Christofer */
+  footer {
+    height: 630px;
+    position: relative;
+    background: #316099;
+     
+  }
+  footer .container-footer {
+    position: absolute;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .linea-footer {
+    margin: 20px 0 20px 0;
+    border: 0.01px solid #83A0C2;
+  
+  }
+  footer .footer-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  footer .blocks ul {
+    list-style: none;
+  }
+  footer .blocks .icon-afri {
+    height: 40px;
+    padding-bottom: 15px;
+  }
+  footer .blocks ul .footer-tittle {
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  footer .blocks ul li , a{
+    margin: 20px 0;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .copyright {
+      padding-top: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    opacity: 0.4;
+  }
